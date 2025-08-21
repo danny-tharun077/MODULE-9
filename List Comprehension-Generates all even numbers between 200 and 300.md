@@ -20,8 +20,29 @@ To write a Python class-based program that generates all even numbers between 20
 ---
 
 ## 💻 PROGRAM:
-Add Code Here
+```
+class Program:
+    def __init__(self, first,d,last):
+        self.first = first
+        self.d = d
+        self.last=last
+    def display(self):
+        L=[i for i in range(self.first,self.last+1,self.d)]
+        return L
+
+
+a=int(input())
+b=int(input())
+c=int(input())
+Series = Program(a,b,c+1)
+print(Series.display())
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/ef53065c-2b1a-48bc-b351-b28cfb16b88d)
+![image](https://github.com/user-attachments/assets/ad7f1b9d-ece9-492e-85e5-6556629c9b5f)
+![image](https://github.com/user-attachments/assets/383ee3da-e42c-435b-9a17-51e3d28d515e)
+
 
 ## RESULT:
+Thus,the program is executed successfully
